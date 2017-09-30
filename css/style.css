@@ -184,6 +184,7 @@ table {
 	border-spacing: 0;
 }
 .section-padding{
+    height:100vh;
 	padding: 60px 0px;
 }
 h1, h2, h3, h4, h5, h6{
