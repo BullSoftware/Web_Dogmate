@@ -273,6 +273,7 @@ Banner
     position: relative;
 }
 .bg-color{
+    height:100vh;
 	background-color: RGBA(12, 11, 11, 0.82);
 	min-height: 580px;
 }
