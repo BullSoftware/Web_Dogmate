@@ -17,7 +17,7 @@
 }
 /* 가장 위 "SIGN IN NOW 하늘색 부분 */
 
-.form-sign_up h2.form-sign_up-heading {
+.form-sign_up>.form-sign_up-heading {
 	margin: 0;
 	padding: 25px 20px;
 	text-align: center;
@@ -219,7 +219,8 @@ table {
 }
 .section-padding{
     height: 94vh;
-	padding: 60px 0px;
+    padding: 60px 0px;
+    min-height: 1100px
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Open Sans, sans-serif;
