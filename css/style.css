@@ -5,6 +5,40 @@
     Author URL: https://bootstrapmade.com
 */
 <-- board -->
+
+/*SIGN_UP CONFIGURATION PAGE*/
+/*SIGN_UP 창 백그라운드 */
+.form-sign_up {
+	max-width: 330px;
+	margin: 100px auto 0;
+	background: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+/* 가장 위 "SIGN IN NOW 하늘색 부분 */
+
+.form-sign_up h2.form-sign_up-heading {
+	margin: 0;
+	padding: 25px 20px;
+	text-align: center;
+	background: #68dff0;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+
+/* 로그인 창의 테두리를 여유있게 띄워준다. */
+.sign_up-wrap {
+	padding: 20px;
+}
+.sign_up-wrap .registration {
+	text-align: center;
+}
+
 .gallery-title
 {
     font-size: 36px;
@@ -184,7 +218,7 @@ table {
 	border-spacing: 0;
 }
 .section-padding{
-    height:100vh;
+    height: 94vh;
 	padding: 60px 0px;
 }
 h1, h2, h3, h4, h5, h6{
@@ -273,7 +307,7 @@ Banner
     position: relative;
 }
 .bg-color{
-    height:100vh;
+    height: 100vh;
 	background-color: RGBA(12, 11, 11, 0.82);
 	min-height: 580px;
 }
@@ -829,6 +863,13 @@ Footer
     background-color: #5fcf80;
     color: #fff;
 }
+
+.btn-green2, .btn-green2:hover{
+    margin: 5px;
+    background-color: #5fcf80;
+    color: #fff;
+}
+
 .footer .form-control:focus{
     box-shadow: none;
 }
